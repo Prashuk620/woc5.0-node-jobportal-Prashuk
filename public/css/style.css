@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container::before {
+    content: "";
+    background: url(./jess-bailey-q10VITrVYUM-unsplash.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.4;
+    height: 98%;
+    width: 98%;
+    position: absolute;
+}
+
+
+ul {
+    /* background-color: rgb(135, 227, 227); */
+
+    border: 2px solid rgb(245, 245, 248);
+display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    list-style: none;
+    
+
+}
+
+li {
+    /* display: inline-block; */
+
+font-style: oblique;
+    color: rgb(250, 246, 246);
+    font-weight: 200;
+
+    padding: 10px;
+  
+
+}
+
+.container {
+    
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: rgb(5, 13, 53);
+}
+
+div ul li a{
+    color:rgb(250, 248, 248);
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+   /* border: 3px solid rgb(48, 1, 67) ; */
+   /* border-radius: 25px; */
+
+}
+#b1,#b2{
+    background-color: #9eadf0;
+  color: rgb(8, 8, 8);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid rgb(24, 1, 42);
+  /* block-size: auto; */
+  border-radius: 20px;
+
+
+
+  /* position: center; */
+  margin: 12px;
+  
+}
+
+.box{
+    padding: 5px;
+    margin-top: 90px;
+    width: 50%;
+    height: 60%;
+   border: 4px solid rgb(133, 133, 233);
+   display: inline-block;
+   position: absolute;
+   right: 25%;
+   /* justify- */
+   /* vertical-align: auto; */
+   
+
+}
+
+.form,.form1{
+    padding: 5px;
+  margin: 3px;
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: center;
+  height: 30px;
+  
+
+}
+
+.line{
+    border: 2px solid rgb(252, 251, 251);
+    color: rgb(4, 4, 4);
+    text-align: center;
+}
+
+.sign{
+    color: rgb(249, 252, 254);
+    background-color: #576294;
+    padding: 2px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    border: 2px solid black;
+width: 100px;
+/* margin-left: 130px; */
+}
+
+.name{
+    padding: 13px;
+    margin: 3px;
+    display: inline-block;
+}
+
+#form3Example3, #form3Example4{
+    width: 300px;
+    
+}
+
+.img{
+    /* margin-top: 8px;
+    margin-left: 100px; */
+    padding: 6px;
+    
+    /* position: absolute;
+    align-items: center;
+    justify-content: center; */
+    /* border: 2px solid black; */
+}
